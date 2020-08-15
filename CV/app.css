@@ -1,0 +1,56 @@
+body{
+    font-family: 'Source Sans Pro';
+    border: 20px solid #bdc3c7;
+    padding: 20px;
+    max-width: 700px;
+    width: 80%;
+    margin: 20px auto;
+    line-height: 5px;
+}
+.right-border{
+    border-right: 5px solid #bdc3c7;
+    padding-right: 5px;
+}
+h4,h1 {
+    color: #3498db;
+    letter-spacing: 0.1rem;
+}
+.spaced{
+  letter-spacing: 0.2rem;
+}
+h3{
+    color: #2c3e50;
+    font-size: 2.0rem;
+}
+hr{
+    overflow: visible;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 0;
+}
+p{
+  padding-top: 0;
+}
+a{
+  color: inherit;
+  text-decoration: underline;
+}
+.left{
+  float: left;
+  width: 75%;
+}
+.right{
+  float: left;
+  width: 25%;
+}
+img{
+  height: 135px;
+  width: 135px;
+  float: right;
+  padding-left: 400px;
+  padding-top: 15px;
+}
+.row{
+  display: inline-block;
+}
